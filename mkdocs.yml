@@ -11,13 +11,14 @@ nav:
   - Temas IHC: 'temas_ihc.md'
   - Ferramentas: 'ferramentas.md'
   - Checklist:
-    - Etapa 1 - Escopo e Conformidade: 'checklist/etapa1.md'
+    - Etapa 1 - Blueprint e Visão Geral: 'checklist/etapa1.md'
     - Etapa 2 - Estrutura e Semântica: 'checklist/etapa2.md'
     - Etapa 3 - Navegação e Teclado: 'checklist/etapa3.md'
     - Etapa 4 - Design e Contraste: 'checklist/etapa4.md'
     - Etapa 5 - Formulários e Tempo: 'checklist/etapa5.md'
     - Etapa 6 - Conteúdo e Multimídia: 'checklist/etapa6.md'
     - Etapa 7 - Heurísticas de Nielsen: 'checklist/etapa7.md'
+    - Referências: 'checklist/referencias.md'
   - Entrevista: 'entrevista.md'
 
 theme:

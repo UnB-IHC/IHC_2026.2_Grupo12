@@ -74,15 +74,21 @@
 - [ ] O sistema disponibiliza recursos de suporte e ajuda (FAQ, Central de Ajuda, chat ou botão `?`) facilmente localizáveis a qualquer momento.
 - [ ] A documentação de ajuda é pesquisável, contextualizada à página atual e apresenta passos concretos e curtos focados na tarefa do usuário.
 
+---
+
+## Resultado Final da Avaliação do Site
+
+<div id="checklist-final-dashboard-mount"></div>
+
 <div class="next-stage-box finish-box">
   <div class="next-stage-info">
     <span class="next-stage-badge">Avaliação Finalizada • 7 de 7 Etapas</span>
     <h3>Parabéns! Você chegou ao final do Checklist</h3>
-    <p>Todas as 7 etapas (WCAG + Heurísticas de Nielsen) estão consolidadas no <strong>Índice de Aprovação do Site</strong> no topo da página. Agora você pode revisar qualquer etapa pelo menu lateral ou exportar o relatório completo em PDF.</p>
+    <p>Confira acima o <strong>Índice de Aprovação Geral do Site</strong> e o veredito sobre a <strong>Meta WCAG definida na Etapa 1</strong>. Você pode exportar o relatório completo em PDF ou reiniciar o teste para avaliar outro site.</p>
   </div>
   <div class="next-stage-actions">
     <a class="step-nav-btn secondary" href="etapa6.html">← Voltar para Etapa 6: Conteúdo e Multimídia</a>
     <button type="button" class="step-nav-btn primary" onclick="window.exportChecklistPDF && window.exportChecklistPDF()">📄 Exportar Relatório Completo em PDF</button>
-    <button type="button" class="step-nav-btn danger-btn" onclick="window.resetFullEvaluation && window.resetFullEvaluation(true)">🔄 Reiniciar Teste (Avaliar Outro Site)</button>
+    <button type="button" class="btn-reset-site" onclick="window.resetFullEvaluation && window.resetFullEvaluation(true)">🔄 Avaliar Outro Site (Reiniciar Teste)</button>
   </div>
 </div>

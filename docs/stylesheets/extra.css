@@ -303,30 +303,26 @@
 }
 
 .btn-reset-site {
-  background: var(--surface-subtle);
-  color: #4f46e5 !important;
-  border: 1.5px solid rgba(79, 70, 229, 0.35);
-  font-size: 0.78rem;
-  font-weight: 700;
-  padding: 0.5rem 0.9rem;
+  background: linear-gradient(135deg, #0d9488, #0284c7);
+  color: #ffffff !important;
+  border: none;
+  font-size: 0.82rem;
+  font-weight: 800;
+  padding: 0.6rem 1.15rem;
   border-radius: 10px;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
-  transition: all 0.15s ease;
-}
-
-[data-md-color-scheme="slate"] .btn-reset-site {
-  color: #a5b4fc !important;
-  border-color: rgba(165, 180, 252, 0.35);
+  gap: 0.45rem;
+  box-shadow: 0 4px 14px rgba(13, 148, 136, 0.35);
+  transition: all 0.18s ease;
 }
 
 .btn-reset-site:hover {
-  background: #4f46e5;
+  background: linear-gradient(135deg, #0f766e, #0369a1);
   color: #ffffff !important;
-  border-color: #4f46e5;
   transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(13, 148, 136, 0.5);
 }
 
 .step-nav-btn.danger-btn,
@@ -350,43 +346,120 @@
   transform: translateY(-2px);
 }
 
-/* Painel Simplificado (Etapas 2 a 6) */
-.approval-dashboard.compact-dashboard {
-  padding: 1rem 1.25rem;
-}
-
-.compact-header {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.8rem;
-  margin-bottom: 0.65rem;
-}
-
-.compact-scores {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.75rem;
-}
-
-.compact-pill-score {
-  background: linear-gradient(135deg, #4f46e5, #0d9488);
-  color: #ffffff;
-  font-weight: 800;
-  font-size: 0.85rem;
-  padding: 0.3rem 0.75rem;
-  border-radius: 999px;
-}
-
-.compact-stage-pill {
-  background: var(--surface-subtle);
-  border: 1px solid var(--card-border);
+/* Badge pequeno da Meta WCAG no cabeçalho recolhido */
+.meta-mini-badge {
+  font-size: 0.7rem;
   font-weight: 700;
-  font-size: 0.78rem;
-  padding: 0.28rem 0.7rem;
+  padding: 0.22rem 0.65rem;
   border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.meta-mini-badge.meta-pending,
+.meta-mini-badge.meta-fail {
+  background: #fee2e2;
+  color: #b91c1c;
+  border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+.meta-mini-badge.meta-partial {
+  background: #fef3c7;
+  color: #b45309;
+  border: 1px solid rgba(245, 158, 11, 0.35);
+}
+
+.meta-mini-badge.meta-pass {
+  background: #dcfce7;
+  color: #15803d;
+  border: 1px solid rgba(34, 197, 94, 0.35);
+}
+
+[data-md-color-scheme="slate"] .meta-mini-badge.meta-pending,
+[data-md-color-scheme="slate"] .meta-mini-badge.meta-fail {
+  background: rgba(239, 68, 68, 0.2);
+  color: #fca5a5;
+}
+
+[data-md-color-scheme="slate"] .meta-mini-badge.meta-partial {
+  background: rgba(245, 158, 11, 0.2);
+  color: #fde68a;
+}
+
+[data-md-color-scheme="slate"] .meta-mini-badge.meta-pass {
+  background: rgba(34, 197, 94, 0.2);
+  color: #86efac;
+}
+
+/* Botão de expandir/recolher o Índice de Aprovação */
+.btn-toggle-dashboard {
+  background: var(--surface-subtle);
+  color: #4f46e5;
+  border: 1.5px solid rgba(79, 70, 229, 0.35);
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 0.48rem 0.9rem;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+
+[data-md-color-scheme="slate"] .btn-toggle-dashboard {
+  color: #a5b4fc;
+  border-color: rgba(165, 180, 252, 0.35);
+}
+
+.btn-toggle-dashboard:hover {
+  background: #4f46e5;
+  color: #ffffff;
+  border-color: #4f46e5;
+}
+
+/* Corpo expansível do Painel de Aprovação */
+.dashboard-collapsible-body {
+  display: none;
+  padding-top: 0.85rem;
+  margin-top: 0.85rem;
+  border-top: 1px dashed var(--card-border);
+  animation: fadeInDown 0.2s ease;
+}
+
+.approval-dashboard.is-expanded .dashboard-collapsible-body {
+  display: block;
+}
+
+/* Quando expandido, esconder o badge pequeno da meta e o botão de abrir do topo */
+.approval-dashboard.is-expanded .meta-mini-badge,
+.approval-dashboard.is-expanded .btn-open-dashboard {
+  display: none !important;
+}
+
+.dashboard-collapse-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.9rem;
+  padding-top: 0.7rem;
+  border-top: 1px dashed var(--card-border);
+}
+
+.approval-dashboard .dashboard-top {
+  margin-bottom: 0;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* Barra de Progresso Principal */
@@ -713,6 +786,105 @@
 
 .checklist-card.is-checked .check-content {
   opacity: 0.88;
+}
+
+/* Estado Não se Aplica (N/A) nos itens do Checklist */
+.md-typeset li.checklist-card.is-na {
+  background: var(--surface-subtle);
+  border-style: dashed;
+  border-color: #94a3b8;
+}
+
+.checklist-card.is-na .check-content {
+  opacity: 0.58;
+  text-decoration: line-through;
+}
+
+.checklist-card.is-na .check-box-ui {
+  border-color: #94a3b8;
+  background: rgba(148, 163, 184, 0.2);
+}
+
+.btn-na-toggle {
+  border: 1px solid var(--card-border);
+  background: var(--surface-subtle);
+  color: var(--text-muted);
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 0.25rem 0.55rem;
+  border-radius: 7px;
+  cursor: pointer;
+  white-space: nowrap;
+  align-self: flex-start;
+  margin-top: 0.1rem;
+  transition: all 0.15s ease;
+}
+
+.btn-na-toggle:hover {
+  border-color: #64748b;
+  color: inherit;
+}
+
+.checklist-card.is-na .btn-na-toggle {
+  background: #475569;
+  color: #ffffff;
+  border-color: #475569;
+}
+
+/* Veredito da Meta WCAG Alvo */
+.wcag-verdict-box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+  padding: 0.7rem 1rem;
+  border-radius: 11px;
+  margin-bottom: 0.95rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  border: 1.5px solid var(--card-border);
+}
+
+.wcag-verdict-box.verdict-pending {
+  background: var(--surface-subtle);
+  color: var(--text-muted);
+}
+
+.wcag-verdict-box.verdict-pass {
+  background: #dcfce7;
+  border-color: #22c55e;
+  color: #14532d;
+}
+
+.wcag-verdict-box.verdict-partial {
+  background: #fef3c7;
+  border-color: #f59e0b;
+  color: #78350f;
+}
+
+.wcag-verdict-box.verdict-fail {
+  background: #fee2e2;
+  border-color: #ef4444;
+  color: #7f1d1d;
+}
+
+[data-md-color-scheme="slate"] .wcag-verdict-box.verdict-pass {
+  background: rgba(22, 163, 74, 0.2);
+  border-color: rgba(74, 222, 128, 0.5);
+  color: #bbf7d0;
+}
+
+[data-md-color-scheme="slate"] .wcag-verdict-box.verdict-partial {
+  background: rgba(245, 158, 11, 0.18);
+  border-color: rgba(251, 191, 36, 0.45);
+  color: #fde68a;
+}
+
+[data-md-color-scheme="slate"] .wcag-verdict-box.verdict-fail {
+  background: rgba(239, 68, 68, 0.2);
+  border-color: rgba(248, 113, 113, 0.45);
+  color: #fecaca;
 }
 
 /* Badges de Nível WCAG */
