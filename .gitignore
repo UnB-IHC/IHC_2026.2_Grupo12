@@ -1,0 +1,5 @@
+# Diretório gerado automaticamente pelo MkDocs (publicado na branch gh-pages)
+site/
+.cache/
+__pycache__/
+*.pyc

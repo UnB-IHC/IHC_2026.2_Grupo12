@@ -1,26 +1,41 @@
-# VerificaAAA
+# IHC 2026.2 — Grupo 12
 
-<div align="center">
-<img src="docs/imagens/logo-verificaaa.png" alt="Logo de prancheta com checklist" style="width: 100px">
-</div>
+Repositório de documentação do projeto da disciplina de **Interação Humano-Computador (IHC)** — 2026.2 da Universidade de Brasília (UnB), contendo o **Checklist de Avaliação de Acessibilidade (WCAG) e Usabilidade (Heurísticas de Nielsen)**.
 
+## Estrutura da Documentação (MkDocs)
 
-## Introdução
+- **Contextualização (`docs/index.md`)**: Explicação do trabalho e integrantes do Grupo 12.
+- **Temas IHC (`docs/temas_ihc.md`)**: Assuntos e conceitos teóricos da matéria.
+- **Checklist (`docs/checklist.md`)**: Checklist completo de Acessibilidade (WCAG) e Usabilidade (Heurísticas de Nielsen).
+- **Entrevista (`docs/entrevista.md`)**: Planejamento, roteiro e resultados da entrevista.
 
-Este repositório tem como propósito fornecer um checklist prático de acessibilidade para projetos, principalmente de desenvolvimento de software, que incluem: desenvolvimento web, design, geração de conteúdo e gestão de projetos. 
+## Como executar localmente
 
-## VerificaAAA
+```bash
+pip install mkdocs pymdown-extensions
+mkdocs serve
+```
 
-O VerificaAAA é nome do projeto criado a partir do curso de Interação Humano Computador, ministrado pela docente Rejane Maria da Costa Figueiredo, na Universidade de Brasília (UnB). 
+## Publicação no GitHub Pages
 
-## Contribuidores
+Para publicar manualmente na branch `gh-pages`:
 
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/vitorfleonardo"><img style="border-radius: 50%;" src="https://github.com/vitorfleonardo.png" width="100px;" alt=""/><br /><sub><b>Vitor Feijó</b></sub></a><br />
-    <td align="center"><a href="https://github.com/CADU110"><img style="border-radius: 50%;" src="https://github.com/CADU110.png" width="100px;" alt=""/><br /><sub><b>Carlos Eduardo</b></sub></a><br />   
-    <td align="center"><a href="https://github.com/Angelicahaas"><img style="border-radius: 50%;" src="https://github.com/Angelicahaas.png" width="100px;" alt=""/><br /><sub><b>Harleny Angéllica</b></sub></a><br />   
-    <td align="center"><a href="https://github.com/Erick-ems "><img style="border-radius: 50%;" src="https://github.com/Erick-ems.png" width="100px;" alt=""/><br /><sub><b>Erick Santos</b></sub></a><br />
-    <td align="center"><a href="https://github.com/maykonjuso "><img style="border-radius: 50%;" src="https://github.com/maykonjuso.png" width="100px;" alt=""/><br /><sub><b>Maykon Júnio</b></sub></a><br />
-  </tr>
-</table>
+```bash
+mkdocs gh-deploy
+```
+
+Ou automaticamente ao fazer push na branch `main` por meio do GitHub Actions (`.github/workflows/deploy.yml`).
+
+## Integrantes do Grupo 12
+
+| Nome | Matrícula |
+| :--- | :--- |
+| Ana Caroline Dantas da Silva | 241025908 |
+| Arthur Evangelista da Silva | 242005196 |
+| Carlos Gabriel Gomes Silva | 242015450 |
+| Isaías Moraes Pacheco | 242015497 |
+| João Victor da Costa Cruz | 202046185 |
+| Luana Barbosa Souza | 242028717 |
+| Paulo Vinicius Pinheiro do Nascimento | 190129344 |
+| Rafael Schetinger | 242005024 |
+| Thaiza Romualdo da Silva | 211062508 |
