@@ -1269,17 +1269,6 @@ a.member-card {
   color: #a5b4fc;
 }
 
-/* Foto do GitHub: tamanho maior, circular, com borda do tema */
-img.member-avatar {
-  width: 72px;
-  height: 72px;
-  min-width: 72px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid #4f46e5;
-  flex-shrink: 0;
-}
-
 /* Cards da contextualização: mesma altura e tags alinhadas */
 .card-grid {
   align-items: stretch;
@@ -1296,11 +1285,20 @@ img.member-avatar {
   align-self: flex-start;
 }
 
-/* Foto do GitHub com tamanho fixo */
+/* Foto do GitHub: tamanho maior, circular, com borda do tema */
 img.member-avatar {
-  width: 52px;
-  height: 52px;
-  min-width: 52px;
+  width: 104px;
+  height: 104px;
+  min-width: 104px;
+  border-radius: 50%;
   object-fit: cover;
+  border: 3px solid #4f46e5;
   flex-shrink: 0;
+}
+
+.member-card {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1.4rem 1rem;
 }
