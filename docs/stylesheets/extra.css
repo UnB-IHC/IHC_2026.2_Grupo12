@@ -1274,3 +1274,10 @@ img.member-avatar {
   object-fit: cover;
 }
 
+img.member-avatar {
+  width: 52px;
+  height: 52px;
+  min-width: 52px;
+  flex-shrink: 0;
+}
+
