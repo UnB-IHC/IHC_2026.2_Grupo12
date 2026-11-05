@@ -1248,3 +1248,29 @@
   color: #818cf8;
 }
 
+/* Links dos cards sem sublinhado e na cor do tema  para o index*/
+a.info-card,
+a.member-card {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Cargo do integrante (rótulo "Integrante") para o index*/
+.member-role {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #6366f1;
+  font-weight: 600;
+  margin-bottom: 0.15rem;
+}
+
+[data-md-color-scheme="slate"] .member-role {
+  color: #a5b4fc;
+}
+
+/* Foto do GitHub sem distorção para o index */
+img.member-avatar {
+  object-fit: cover;
+}
+
