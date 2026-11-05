@@ -11,15 +11,15 @@
     <span>🛠️ <strong>Ferramentas de Apoio para esta Etapa</strong> (clique para ver como usar na seção de Ferramentas):</span>
   </div>
   <div class="stage-tools-grid">
-    <a class="stage-tool-pill" href="../ferramentas.md#axe-wave">
+    <a class="stage-tool-pill" href="../ferramentas/axe_wave.html">
       <strong>🧩 WAVE & Axe DevTools</strong>
       <span>Auditoria de atributos alt em imagens e links vagos</span>
     </a>
-    <a class="stage-tool-pill" href="../ferramentas.md#leitores-de-tela">
+    <a class="stage-tool-pill" href="../ferramentas/leitores_de_tela.html">
       <strong>🔊 Leitores de Tela</strong>
       <span>Leitura de textos alternativos e botões com ícones</span>
     </a>
-    <a class="stage-tool-pill" href="../ferramentas.md#lighthouse">
+    <a class="stage-tool-pill" href="../ferramentas/lighthouse.html">
       <strong>🚀 Google Lighthouse</strong>
       <span>Verificação geral de mídia e nomes acessíveis</span>
     </a>

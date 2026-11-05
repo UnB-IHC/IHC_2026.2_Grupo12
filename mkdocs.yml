@@ -9,7 +9,13 @@ use_directory_urls: False
 nav:
   - Contextualização: 'index.md'
   - Temas IHC: 'temas_ihc.md'
-  - Ferramentas: 'ferramentas.md'
+  - Ferramentas:
+    - 1. Browser DevTools: 'ferramentas/devtools.md'
+    - 2. WAVE & Axe DevTools: 'ferramentas/axe_wave.md'
+    - 3. Google Lighthouse: 'ferramentas/lighthouse.md'
+    - 4. Contraste (WebAIM & CCA): 'ferramentas/contraste.md'
+    - 5. Navegação por Teclado: 'ferramentas/teclado.md'
+    - 6. Leitores de Tela: 'ferramentas/leitores_de_tela.md'
   - Checklist:
     - Etapa 1 - Blueprint e Visão Geral: 'checklist/etapa1.md'
     - Etapa 2 - Estrutura e Semântica: 'checklist/etapa2.md'

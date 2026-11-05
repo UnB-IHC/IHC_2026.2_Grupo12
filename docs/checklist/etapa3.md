@@ -11,11 +11,11 @@
     <span>🛠️ <strong>Ferramentas de Apoio para esta Etapa</strong> (clique para ver como usar na seção de Ferramentas):</span>
   </div>
   <div class="stage-tools-grid">
-    <a class="stage-tool-pill" href="../ferramentas.md#teclado">
+    <a class="stage-tool-pill" href="../ferramentas/teclado.html">
       <strong>⌨️ Protocolo de Teste por Teclado</strong>
       <span>Navegação via Tab, Shift+Tab, Enter, Setas e ESC</span>
     </a>
-    <a class="stage-tool-pill" href="../ferramentas.md#devtools">
+    <a class="stage-tool-pill" href="../ferramentas/devtools.html">
       <strong>🛠️ Browser DevTools</strong>
       <span>Inspeção de :focus-visible e medição de área de clique (24x24px / 44x44px)</span>
     </a>

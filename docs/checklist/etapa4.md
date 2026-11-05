@@ -11,11 +11,11 @@
     <span>🛠️ <strong>Ferramentas de Apoio para esta Etapa</strong> (clique para ver como usar na seção de Ferramentas):</span>
   </div>
   <div class="stage-tools-grid">
-    <a class="stage-tool-pill" href="../ferramentas.md#contraste">
+    <a class="stage-tool-pill" href="../ferramentas/contraste.html">
       <strong>🎨 WebAIM & CCA (Contraste)</strong>
       <span>Aferição das taxas de contraste 3:1, 4,5:1 (AA) e 7:1 (AAA)</span>
     </a>
-    <a class="stage-tool-pill" href="../ferramentas.md#devtools">
+    <a class="stage-tool-pill" href="../ferramentas/devtools.html">
       <strong>🛠️ DevTools (Responsividade e Zoom)</strong>
       <span>Simulação de tela de 320px, orientação e zoom de 200%</span>
     </a>

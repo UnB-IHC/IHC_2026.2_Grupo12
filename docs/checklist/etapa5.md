@@ -11,15 +11,15 @@
     <span>🛠️ <strong>Ferramentas de Apoio para esta Etapa</strong> (clique para ver como usar na seção de Ferramentas):</span>
   </div>
   <div class="stage-tools-grid">
-    <a class="stage-tool-pill" href="../ferramentas.md#axe-wave">
+    <a class="stage-tool-pill" href="../ferramentas/axe_wave.html">
       <strong>🧩 WAVE & Axe DevTools</strong>
       <span>Detecção de inputs sem &lt;label&gt; associado ou autocomplete</span>
     </a>
-    <a class="stage-tool-pill" href="../ferramentas.md#devtools">
+    <a class="stage-tool-pill" href="../ferramentas/devtools.html">
       <strong>🛠️ Browser DevTools</strong>
       <span>Verificação de atributos de formulário no código</span>
     </a>
-    <a class="stage-tool-pill" href="../ferramentas.md#teclado">
+    <a class="stage-tool-pill" href="../ferramentas/teclado.html">
       <strong>⌨️ Teste de Teclado</strong>
       <span>Teste de login, foco em mensagens de erro e submissão</span>
     </a>

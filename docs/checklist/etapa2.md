@@ -11,15 +11,15 @@
     <span>🛠️ <strong>Ferramentas de Apoio para esta Etapa</strong> (clique para ver como usar na seção de Ferramentas):</span>
   </div>
   <div class="stage-tools-grid">
-    <a class="stage-tool-pill" href="../ferramentas.md#devtools">
+    <a class="stage-tool-pill" href="../ferramentas/devtools.html">
       <strong>🛠️ Browser DevTools (DOM)</strong>
       <span>Inspeção de tags &lt;title&gt;, lang, &lt;header&gt;, &lt;main&gt; e DOM</span>
     </a>
-    <a class="stage-tool-pill" href="../ferramentas.md#axe-wave">
+    <a class="stage-tool-pill" href="../ferramentas/axe_wave.html">
       <strong>🧩 WAVE & Axe DevTools</strong>
       <span>Validação automática de semântica HTML e atributos ARIA</span>
     </a>
-    <a class="stage-tool-pill" href="../ferramentas.md#leitores-de-tela">
+    <a class="stage-tool-pill" href="../ferramentas/leitores_de_tela.html">
       <strong>🔊 Leitores de Tela (NVDA)</strong>
       <span>Teste de anúncios de role, estado e aria-live</span>
     </a>

@@ -13,11 +13,11 @@
     <span>🛠️ <strong>Ferramentas de Apoio para esta Etapa</strong> (clique para ver como usar na seção de Ferramentas):</span>
   </div>
   <div class="stage-tools-grid">
-    <a class="stage-tool-pill" href="../ferramentas.md#lighthouse">
+    <a class="stage-tool-pill" href="../ferramentas/lighthouse.html">
       <strong>🚀 Google Lighthouse</strong>
       <span>Para diagnóstico geral das páginas e fluxos principais</span>
     </a>
-    <a class="stage-tool-pill" href="../ferramentas.md#teclado">
+    <a class="stage-tool-pill" href="../ferramentas/teclado.html">
       <strong>⌨️ Teste de Teclado e Fluxo</strong>
       <span>Para percorrer a jornada completa sem bloqueios de foco</span>
     </a>

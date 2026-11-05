@@ -11,11 +11,11 @@
     <span>🛠️ <strong>Ferramentas de Apoio para esta Etapa</strong> (clique para ver como usar na seção de Ferramentas):</span>
   </div>
   <div class="stage-tools-grid">
-    <a class="stage-tool-pill" href="../ferramentas.md#devtools">
+    <a class="stage-tool-pill" href="../ferramentas/devtools.html">
       <strong>🛠️ Inspeção Heurística Guiada</strong>
       <span>Análise visual e interativa dos fluxos do sistema</span>
     </a>
-    <a class="stage-tool-pill" href="../ferramentas.md#teclado">
+    <a class="stage-tool-pill" href="../ferramentas/teclado.html">
       <strong>⌨️ Teste de Atalhos e Fluxos</strong>
       <span>Verificação de aceleradores (Ctrl+Z, ESC) e saídas de emergência</span>
     </a>
