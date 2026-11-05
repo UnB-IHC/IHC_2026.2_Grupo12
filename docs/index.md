@@ -7,26 +7,26 @@
 ## O que compõe esta página
 
 <div class="card-grid">
-  <a class="info-card" href="checklist/etapa1.md">
+  <div class="info-card">
     <span class="card-icon">🎯</span>
     <h3>Objetivo do Trabalho</h3>
     <p>Inspecionar uma interface real com um checklist que reúne critérios WCAG e heurísticas de Nielsen.</p>
     <span class="placeholder-tag">Checklist</span>
-  </a>
+  </div>
 
-  <a class="info-card" href="#objeto-de-estudo">
+  <div class="info-card">
     <span class="card-icon">🌐</span>
     <h3>Objeto de Estudo</h3>
     <p>Site institucional e loja online da Apple, voltado ao público brasileiro.</p>
     <span class="placeholder-tag">apple.com/br</span>
-  </a>
+  </div>
 
-  <a class="info-card" href="#metodologia-adotada">
+  <div class="info-card">
     <span class="card-icon">🧭</span>
     <h3>Metodologia Adotada</h3>
     <p>Estudo teórico, construção do checklist, avaliação prática e entrevistas com usuários.</p>
     <span class="placeholder-tag">4 etapas</span>
-  </a>
+  </div>
 </div>
 
 ## Objeto de Estudo
