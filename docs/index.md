@@ -66,8 +66,8 @@
     </div>
   </a>
 
-  <a class="member-card" href="https://github.com/cgabriel28" target="_blank" rel="noopener">
-    <img class="member-avatar" src="https://github.com/cgabriel28.png?size=128" alt="Foto de Carlos Gabriel Gomes Silva">
+  <a class="member-card" href="https://github.com/cgbriel28" target="_blank" rel="noopener">
+    <img class="member-avatar" src="https://github.com/cgbriel28.png?size=128" alt="Foto de Carlos Gabriel Gomes Silva">
     <div class="member-info">
       <div class="member-role">Integrante</div>
       <div class="member-name">Carlos Gabriel Gomes Silva</div>
