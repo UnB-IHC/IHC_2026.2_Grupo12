@@ -8,7 +8,20 @@ use_directory_urls: False
 
 nav:
   - Contextualização: 'index.md'
-  - Temas IHC: 'temas_ihc.md'
+  - Temas IHC:
+    - Visão Geral: 'temas_ihc.md'
+    - 1. Usabilidade e UX: 'temas/usabilidade_ux.md'
+    - 2. Acessibilidade e WCAG: 'temas/acessibilidade_wcag.md'
+    - 3. Heurísticas de Nielsen: 'temas/heuristicas_nielsen.md'
+    - 4. Métodos de Avaliação: 'temas/avaliacao_ihc.md'
+    - 5. Design Centrado no Usuário: 'temas/design_centrado_usuario.md'
+    - Temas Gerais da Disciplina:
+      - Visão Geral: 'temas/disciplina/index.md'
+      - UX e UI Design: 'temas/disciplina/ux_ui.md'
+      - Personas: 'temas/disciplina/personas.md'
+      - Jornada x Fluxos: 'temas/disciplina/jornada_fluxos.md'
+      - Blueprint de Serviço: 'temas/disciplina/blueprint.md'
+      - Design Empático: 'temas/disciplina/design_empatico.md'
   - Ferramentas:
     - 1. Browser DevTools: 'ferramentas/devtools.md'
     - 2. WAVE & Axe DevTools: 'ferramentas/axe_wave.md'
