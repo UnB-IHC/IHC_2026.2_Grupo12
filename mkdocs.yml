@@ -38,6 +38,10 @@ nav:
     - Etapa 6 - Conteúdo e Multimídia: 'checklist/etapa6.md'
     - Etapa 7 - Heurísticas de Nielsen: 'checklist/etapa7.md'
     - Referências: 'checklist/referencias.md'
+  - Avaliação:
+    - Visão Geral: 'avaliacao/index.md'
+    - Metodologias Utilizadas: 'avaliacao/metodologia.md'
+    - Resultado da Análise: 'avaliacao/resultados.md'
   - Entrevista: 'entrevista.md'
 
 theme:
