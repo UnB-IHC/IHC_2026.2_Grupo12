@@ -11,7 +11,7 @@
     <span class="card-icon">📋</span>
     <h3>1. Planejamento e Objetivos</h3>
     <p>Propósito da sessão, método, métricas adotadas e como a escuta do usuário complementa o checklist técnico.</p>
-    <a href="#1-planejamento-e-objetivos">Ver seção →</a><br>
+    <a href="#secao-1">Ver seção →</a><br>
     <span class="placeholder-tag">Concluído</span>
   </div>
 
@@ -19,7 +19,7 @@
     <span class="card-icon">👥</span>
     <h3>2. Perfil dos Participantes</h3>
     <p>Caracterização do participante (P1), critérios de recrutamento e tratamento de consentimento (TCLE, LGPD e direito de imagem).</p>
-    <a href="#2-perfil-dos-participantes">Ver seção →</a><br>
+    <a href="#secao-2">Ver seção →</a><br>
     <span class="placeholder-tag">Concluído</span>
   </div>
 
@@ -27,7 +27,7 @@
     <span class="card-icon">🎙️</span>
     <h3>3. Roteiro de Perguntas</h3>
     <p>Fases da sessão, perguntas das entrevistas inicial e final e tarefas guiadas aplicadas ao participante.</p>
-    <a href="#3-roteiro-de-perguntas">Ver seção →</a><br>
+    <a href="#secao-3">Ver seção →</a><br>
     <span class="placeholder-tag">Concluído</span>
   </div>
 
@@ -35,12 +35,14 @@
     <span class="card-icon">📊</span>
     <h3>4. Resultados e Insights</h3>
     <p>Resultados por tarefa, escore SUS, síntese das entrevistas, problemas de usabilidade e recomendações priorizadas.</p>
-    <a href="#4-resultados-e-insights">Ver seção →</a><br>
+    <a href="#secao-4">Ver seção →</a><br>
     <span class="placeholder-tag">Concluído</span>
   </div>
 </div>
 
 ---
+
+<span id="secao-1"></span>
 
 ## 1. Planejamento e Objetivos
 
@@ -85,6 +87,8 @@ Os cinco problemas observados no teste (P-01 a P-05) não foram antecipados pela
 - **Severidade dos problemas (Nielsen, 1994):** 0 = não é problema; 1 = cosmético; 2 = menor; 3 = grave; 4 = catastrófico.
 
 ---
+
+<span id="secao-2"></span>
 
 ## 2. Perfil dos Participantes
 
@@ -132,6 +136,8 @@ Pontos informados ao participante:
 - Ao término do ciclo do projeto, arquivos brutos arquivados em ambiente restrito e seguro ou descartados conforme a política interna de retenção de dados.
 
 ---
+
+<span id="secao-3"></span>
 
 ## 3. Roteiro de Perguntas
 
@@ -236,6 +242,8 @@ O facilitador agradece a participação e o tempo dedicado, explica que as obser
 - Apoiar a análise nas evidências registradas durante a sessão.
 
 ---
+
+<span id="secao-4"></span>
 
 ## 4. Resultados e Insights
 
