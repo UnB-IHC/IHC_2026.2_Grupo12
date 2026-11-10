@@ -1302,3 +1302,15 @@ img.member-avatar {
   text-align: center;
   padding: 1.4rem 1rem;
 }
+
+.card-grid.referencias-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+@media (max-width: 380px) {
+  .card-grid.referencias-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
