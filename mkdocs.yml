@@ -42,7 +42,12 @@ nav:
     - Visão Geral: 'avaliacao/index.md'
     - Metodologias Utilizadas: 'avaliacao/metodologia.md'
     - Resultado da Análise: 'avaliacao/resultados.md'
-  - Entrevista: 'entrevista.md'
+  - Entrevista:
+    - Visão Geral: 'entrevista.md'
+    - 1. Planejamento e Objetivos: 'entrevista/planejamento.md'
+    - 2. Perfil dos Participantes: 'entrevista/perfil.md'
+    - 3. Roteiro de Perguntas: 'entrevista/roteiro.md'
+    - 4. Resultados e Insights: 'entrevista/resultados.md'
 
 theme:
   name: material
