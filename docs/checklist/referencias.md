@@ -1,37 +1,48 @@
 <div class="hero-banner">
-  <span class="hero-badge">Fundamentação do Checklist • Em Breve</span>
+  <span class="hero-badge">Fundamentação do Checklist</span>
   <h1>Referências do Checklist</h1>
-  <p>Espaço reservado para listar as normas técnicas, diretrizes oficiais e referências bibliográficas utilizadas na construção das 7 etapas do Checklist de Acessibilidade e Usabilidade.</p>
+  <p>Normas, diretrizes e materiais que apoiam os critérios de acessibilidade e usabilidade avaliados no projeto.</p>
 </div>
 
-## O que será incluído nesta página
+## Referências utilizadas
 
 <div class="card-grid">
   <div class="info-card">
     <span class="card-icon">🌐</span>
-    <h3>Diretrizes W3C / WCAG 2.2</h3>
-    <p>Links e citações oficiais da <em>Web Content Accessibility Guidelines (WCAG) 2.2</em> da W3C/WAI que embasam os critérios de níveis A, AA e AAA das Etapas 1 a 6.</p>
-    <span class="placeholder-tag">Documentação Oficial W3C</span>
+    <h3>WCAG 2.2</h3>
+    <p>Diretrizes do W3C usadas como base para os critérios de acessibilidade do checklist, organizados nos níveis A, AA e AAA.</p>
+    <a href="https://www.w3.org/TR/WCAG22/"
+       target="_blank"
+       rel="noopener noreferrer">
+      Consultar WCAG 2.2 ↗
+    </a>
   </div>
 
   <div class="info-card">
     <span class="card-icon">🧭</span>
     <h3>Heurísticas de Jakob Nielsen</h3>
-    <p>Referências aos artigos clássicos e guias do <em>Nielsen Norman Group (NN/g)</em> sobre as 10 Heurísticas de Usabilidade avaliadas na Etapa 7.</p>
-    <span class="placeholder-tag">Usabilidade & IHC</span>
+    <p>Dez princípios gerais de usabilidade utilizados na inspeção da interface.</p>
+    <a href="https://www.nngroup.com/articles/ten-usability-heuristics/"
+       target="_blank"
+       rel="noopener noreferrer">
+      Consultar as heurísticas ↗
+    </a>
   </div>
 
   <div class="info-card">
     <span class="card-icon">🇧🇷</span>
-    <h3>Guias Nacionais (eMAG / Gov.br)</h3>
-    <p>Referências ao Modelo de Acessibilidade em Governo Eletrônico (eMAG) e guias práticos de acessibilidade web em língua portuguesa.</p>
-    <span class="placeholder-tag">Normas e Guias</span>
+    <h3>eMAG 3.1</h3>
+    <p>Modelo brasileiro de recomendações de acessibilidade digital, incluído como material complementar ao checklist.</p>
+    <a href="https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/modelo-de-acessibilidade"
+       target="_blank"
+       rel="noopener noreferrer">
+      Consultar o eMAG ↗
+    </a>
   </div>
 
   <div class="info-card">
     <span class="card-icon">📚</span>
-    <h3>Bibliografia da Disciplina</h3>
-    <p>Obras de referência de Interação Humano-Computador adotadas na UnB (como Barbosa & Silva) e artigos de Service Blueprint e UX/UI.</p>
-    <span class="placeholder-tag">Bibliografia Acadêmica</span>
+    <h3>Bibliografia da disciplina</h3>
+    <p>Materiais disponibilizados pela Profa. Dra. Rejane Maria da Costa Figueiredo na disciplina de Interação Humano-Computador da Universidade de Brasília, semestre 2026.2.</p>
   </div>
 </div>
