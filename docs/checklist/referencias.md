@@ -6,7 +6,7 @@
 
 ## Referências utilizadas
 
-<div class="card-grid">
+<div class="card-grid referencias-grid">
   <div class="info-card">
     <span class="card-icon">🌐</span>
     <h3>WCAG 2.2</h3>
@@ -33,7 +33,7 @@
     <span class="card-icon">🇧🇷</span>
     <h3>eMAG 3.1</h3>
     <p>Modelo brasileiro de recomendações de acessibilidade digital, incluído como material complementar ao checklist.</p>
-    <a href="https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/modelo-de-acessibilidade"
+    <a href="https://emag.governoeletronico.gov.br/"
        target="_blank"
        rel="noopener noreferrer">
       Consultar o eMAG ↗
