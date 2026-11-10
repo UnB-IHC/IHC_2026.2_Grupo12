@@ -10,8 +10,8 @@
   <a class="info-card" href="metodologia.html">
     <span class="card-icon">🧭</span>
     <h3>Metodologias Utilizadas</h3>
-    <p>Ferramentas e procedimentos usados nas Etapas 4, 5 e 6 do checklist: DevTools, WAVE, WCAG Tester, leitor de tela, testes de sessão e mais.</p>
-    <span class="placeholder-tag">Etapas 4, 5 e 6</span>
+    <p>Ferramentas, procedimentos técnicos, capturas de tela e conclusões fundamentadas das Etapas 1 a 7 (DevTools, Lighthouse, WAVE, WebAIM, teclado, leitor de tela e heurísticas).</p>
+    <span class="placeholder-tag">Etapas 1 a 7</span>
   </a>
 
   <a class="info-card" href="resultados.html">
