@@ -1,5 +1,3 @@
-## Referências
-
 BRASIL. Secretaria de Governo Digital. *eMAG: Modelo de Acessibilidade em Governo Eletrônico*. Versão 3.1. Brasília: Ministério da Economia, 2014. Disponível em: https://emag.governoeletronico.gov.br/.
 
 FIGUEIREDO, Rejane Maria da Costa. *Interação Humano-Computador*. Brasília: Universidade de Brasília, 2026. Material fornecido pela professora na disciplina, semestre 2026.2.
