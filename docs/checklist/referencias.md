@@ -1,6 +1,6 @@
 BRASIL. Secretaria de Governo Digital. *eMAG: Modelo de Acessibilidade em Governo Eletrônico*. Versão 3.1. Brasília: Ministério da Economia, 2014. Disponível em: https://emag.governoeletronico.gov.br/.
 
-FIGUEIREDO, Rejane Maria da Costa. *Interação Humano-Computador*. Brasília: Universidade de Brasília, 2026. Material fornecido pela professora na disciplina, semestre 2026.2.
+CEWEB.BR; NIC.BR; SECRETARIA DE GOVERNO DIGITAL; MINISTÉRIO DA SAÚDE; MOVIMENTO WEB PARA TODOS. *Guia de Boas Práticas para Acessibilidade Digital*. Programa de Cooperação entre Reino Unido e Brasil em Acesso Digital (DAP), 2023.
 
 NIELSEN, Jakob. *10 usability heuristics for user interface design*. Fremont: Nielsen Norman Group, [s.d.]. Disponível em: https://www.nngroup.com/articles/ten-usability-heuristics/.
 
